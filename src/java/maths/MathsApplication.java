@@ -89,3 +89,15 @@ public class MathsApplication {
         return mainObject.toString();
     }
 }
+
+/*
+
+    @GET
+    @Path("sp")
+    @Produces(MediaType.TEXT_HTML)
+    public String getText() {
+        return "[{\"name\":\"Circle\",\"NumberofParam\":1},\n" +
+"{\"name\":\"Rectangle\", \"NumberofParam\":2},\n" +
+"{\"name\":\"Trapezoid\",\"NumberofParam\":3}]";
+    }
+    */
